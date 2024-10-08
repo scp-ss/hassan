@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="icon/ico" href="./images/favicon.ico">
+    <title>HASSAN</title>
+    <style>
+body, html {
+    background-color: rgb(190, 187, 187);
+  /*  text-align: center;
+    height: 100%;
+    margin: 0;
+    display: flex; 
+    justify-content: center; */
+   /* align-items: center; */
+}
+
+.maindiv {
+    text-align: center;
+}
+
+.name-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mltitle, .ml2title {
+    font-family: monospace;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    text-align: center;
+    color: #000000;
+}
+
+.mltitle {
+    font-weight: 550;
+    margin: 15px 2px 15px 10px;
+    width: auto;
+    border: 1px solid transparent;
+    height: auto;
+    border-image: linear-gradient(to right, rgb(196, 111, 111), rgba(255, 255, 255, 0)) 1;
+}
+
+.ml2title {
+    font-weight: 400;
+    margin: 15px 10px 15px 2px;
+    width: auto;
+    border: 1px solid transparent;
+    border-image: linear-gradient(to left, rgb(5, 118, 126), rgba(255, 255, 255, 0)) 1;
+}
+
+
+.thethingy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 400;
+    margin: 10px 10px 10px 2px;
+    width: auto;
+    border: 1px solid transparent;
+    border-image: linear-gradient(to left, rgb(210, 90, 240), rgb(237, 240, 83)) 1;
+}
+
+.mltitles, .ml2titles {
+    font-family: monospace;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    text-align: center;
+    color: #000000;
+}
+
+.ml2titles {
+    font-weight: 400;
+    margin: 1px 10px 1px 2px;
+    width: auto;
+    border: 1px solid transparent;
+    border-image: linear-gradient(to left, rgb(5, 118, 126), rgba(255, 255, 255, 0)) 1;
+}
+
+.mltitles {
+    font-weight: 550;
+    margin: 1px 2px 1px 10px;
+    width: auto;
+    height: auto;
+    border: 1px solid transparent;
+    border-image: linear-gradient(to right, rgb(196, 111, 111), rgba(255, 255, 255, 0)) 1;
+}
+
+
+.ml3title {
+    font-weight: 550;
+    margin: 15px auto 15px auto;
+    width: auto;
+    border: 1px solid transparent;
+    height: 15px;
+    border-width: 10px;
+    border-image: linear-gradient(to right, rgb(196, 111, 111), rgb(22, 21, 21)) 1;
+    width: auto;
+    text-align: center;
+    color:#4a8854;
+}
+.mllist {    
+    border-image: linear-gradient(to right, rgb(0, 0, 0), rgb(94, 22, 22)) 1;
+    background-image: linear-gradient(329deg, #000000, #443d3d);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    font-weight:550;
+    font-size:13px;
+}
+
+.mllist1 {
+    white-space: pre;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(329deg, #000000, #adad2e);
+    border: 1px dashed #0affff;
+    margin: 1px 5px 11px 4px;
+    width: auto;
+    background:rgb(5, 118, 126);
+    border: 1px solid transparent;
+    border-width: 1px;
+    border-image: linear-gradient(to right, rgb(196, 111, 111), rgb(22, 21, 21)) 1;
+}
+.ml2title {
+    border: 2px dashed transparent;
+    border-image: linear-gradient(to right, rgb(0, 255, 76), rgb(189, 158, 158)) 1;
+    font-family: monospace;
+    font-size: 20px;
+    color: white;
+    height: auto;
+    width: auto;
+    margin: 3px auto 3px auto;
+    background-image:linear-gradient(329deg, #0d470a, #8a0606);
+}
+.result {
+    font-family: monospace;
+    font-size: 20px;
+    height: auto;
+    width: 500px;
+    margin: 50px auto 50px auto;
+    border: 2px dashed transparent;
+    text-align: center;
+    border-image: linear-gradient(to right, rgb(0, 255, 76), rgb(189, 158, 158)) 1;
+    background-image: linear-gradient(329deg, #5f44cc, #e77070);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+
+}
+.smol {
+    font-family: monospace;
+    font-size: 4px;
+    height: auto;
+    width: auto;
+    margin: 50px auto 50px auto;
+    border: 2px dashed transparent;
+    text-align: center;
+    color:black;
+}
+.ABT_HIM {
+    font-family: Arial;
+    font-size: 20px;
+    margin: 50px auto 50px auto;
+    border: 2px dashed transparent;
+    color:black;
+
+}
+.ABT_HIM_P {
+    font-family: monospace;
+    font-size: 15px;
+    margin: 50px auto 50px auto;
+    border: 2px dashed transparent;
+    color:black;
+
+}
+    </style>
+</head>
+<body>
+    <h1 class="mltitle"> The Great Footballer Of Our School</h1>
+    <h1 class="ml53titles">Hassan</h1>
+    <p class="ABT_HIM"><span class="ABT_HIM_P">The footballer Hassan:</span><br>He is the smart and mature kid in class.
+         He is very fast and quick in thinking, he also dribbles very good.
+         He gets good grades and is very active, and well mannered.
+         
+        </p>
+    <br>
+    <p class="smol">best result in light mode!</p>
+    <h1 class="result">BIOGRAPHY</h1>
+    <p class="randomp"><b>HEIGHT </b>:  5'4</p>
+    <p class="randomp"><b>HOBBIES</b>: Football</p>
+    <p class="randomp"><b>SPEED </b>:  1 SCHOOL GROUND IN LESS THAN ONE MINUTE</p>
+    <p class="randomp"><b>MENTALITY </b>:  SIGMA</p>
+    <p class="randomp"><b>CLASS </b>:  VIIC</p>
+    <p class="randomp"><b>INSPIRATION </b>:  </p>
+    
+<div class="C8_9_I">
+    <img src="./images/CR7.jpeg" /> <img src="./images/CR.jpeg" /><img src="./images/C7_7.jpeg" />
+</div>
+
+            <h1 class="c1title">--END--</h1>
+            <h1 class="c1title_U">-MUIZZ NASIR VIIC</h1>
+            <p id="countdown" class="c1title"></p>
+    </script>
+    <script>
+    function checkDarkMode() {
+            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                alert("You can't read well in dark mode. Switch to light mode");
+            }
+    }
+    checkDarkMode();
+    </script>
+</body>
+<style>
+.C8_9_I {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto 50px auto;
+    border: 2px dashed black;
+    text-align: center;
+}
+.ml53titles {
+    font-family: monospace;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    text-align: center;
+    color: #000000;
+}
+
+.ml53titles {
+    font-weight: 400;
+    margin: 1px 10px 1px 2px;
+    width: auto;
+    border: 1px solid transparent;
+    border-image: linear-gradient(to left, rgb(5, 118, 126), rgba(255, 255, 255, 0)) 1;
+}
+.result{
+    font-size:34px;
+}
+.c1title {
+    font-family: monospace;
+    font-size: 20px;
+    height: auto;
+    width: auto;
+    margin: 4px auto 4px auto;
+    border: 2px dashed transparent;
+    text-align: center;
+}
+.c1title_U {
+    font-family: monospace;
+    font-size: 20px;
+    height: auto;
+    width: auto;
+    margin: 4px auto 4px auto;
+    border: 2px dashed transparent;
+    text-align: right;
+}
+.randomp {
+    font-family: monospace;
+    font-size: 20px;
+}
+.sngima, .lol {
+    font-family: monospace;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #000000;
+    text-align: center;
+    color: #ffffff;
+}
+
+.sngima {
+    font-weight: 550;
+    margin: 1px 2px 1px 1px;
+    width: auto;
+    border: 1px solid transparent;
+    border-image: linear-gradient(to right, rgb(196, 111, 111), rgba(255, 255, 255, 0)) 1;
+}
+
+.lol {
+    font-weight: 400;
+    margin: 1px 1px 1px 2px;
+    width: auto;
+    border: 1px solid transparent;
+    border-image: linear-gradient(to left, rgb(5, 118, 126), rgba(255, 255, 255, 0)) 1;
+}
+
+
+.chaanha {
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0;
+    border-radius: 1px;
+    padding: 1px;
+    font-weight: 400; 
+    margin: 1px 1px 1px 2px;
+    width: auto;
+    border: 1px solid transparent;
+    border-image: linear-gradient(to left, rgb(210, 90, 240), rgb(237, 240, 83)) 1;
+}
+.chaanha {
+    background-image:linear-gradient(329deg, #00ffff, #8a0606);;
+}
+
+
+
+.sngimas {
+    font-weight: 550;
+    margin: 1px 2px 1px 1px;
+    width: auto;
+    border: 1px solid transparent;
+    border-image: linear-gradient(to right, rgb(196, 111, 111), rgba(255, 255, 255, 0)) 1;
+}
+
+.lols {
+    font-weight: 400;
+    margin: 1px 1px 1px 2px;
+    width: auto;
+    border: 1px solid transparent;
+    border-image: linear-gradient(to left, rgb(5, 118, 126), rgba(255, 255, 255, 0)) 1;
+}
+
+
+
+    /*
+    ALWAYS REMEMBER
+     top, right, bottom, left.
+      */
+</style>
+</html>
